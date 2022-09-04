@@ -19,7 +19,28 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      {siteTitle}
+      {/* {siteTitle} */}
+      Home
+    </Link>
+    <Link
+      to="/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      {/* {siteTitle} */}
+      Resume
+    </Link>
+    <Link
+      to="/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      {/* {siteTitle} */}
+      Contact
     </Link>
     <img
       alt="Gatsby logo"
