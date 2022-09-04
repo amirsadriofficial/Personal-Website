@@ -42,6 +42,16 @@ const Header = ({ siteTitle }) => (
       {/* {siteTitle} */}
       Contact
     </Link>
+    <Link
+      to="/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      {/* {siteTitle} */}
+      Blog
+    </Link>
     <img
       alt="Gatsby logo"
       height={20}
