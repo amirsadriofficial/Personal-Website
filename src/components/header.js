@@ -12,6 +12,15 @@ const Header = ({ siteTitle }) => (
       justifyContent: `space-between`,
     }}
   >
+    {/* <Link
+      to="/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      {siteTitle}
+    </Link> */}
     <Link
       to="/"
       style={{
@@ -19,7 +28,6 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      {/* {siteTitle} */}
       Home
     </Link>
     <Link
@@ -29,7 +37,6 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      {/* {siteTitle} */}
       Resume
     </Link>
     <Link
@@ -39,7 +46,6 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      {/* {siteTitle} */}
       Contact
     </Link>
     <Link
@@ -49,7 +55,6 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      {/* {siteTitle} */}
       Blog
     </Link>
     <Link
@@ -59,7 +64,6 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      {/* {siteTitle} */}
       About
     </Link>
     <img
