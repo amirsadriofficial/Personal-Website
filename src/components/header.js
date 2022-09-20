@@ -37,15 +37,6 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      Resume
-    </Link>
-    <Link
-      to="/"
-      style={{
-        fontSize: `var(--font-sm)`,
-        textDecoration: `none`,
-      }}
-    >
       Contact
     </Link>
     <Link
