@@ -73,6 +73,15 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
+      Languages
+    </Link>
+    <Link
+      to="/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
       Awards
     </Link>
     <img
