@@ -109,7 +109,7 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      Awards
+      Services
     </Link>
     <img
       alt="Gatsby logo"
