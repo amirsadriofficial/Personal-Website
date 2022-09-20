@@ -73,6 +73,15 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
+      Work Experiences
+    </Link>
+    <Link
+      to="/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
       Education
     </Link>
     <Link
