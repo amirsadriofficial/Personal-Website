@@ -55,7 +55,7 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      About
+      About Me
     </Link>
     <Link
       to="/"
