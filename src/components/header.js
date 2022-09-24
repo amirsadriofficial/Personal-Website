@@ -82,24 +82,6 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      Contact
-    </Link>
-    <Link
-      to="/"
-      style={{
-        fontSize: `var(--font-sm)`,
-        textDecoration: `none`,
-      }}
-    >
-      Blog
-    </Link>
-    <Link
-      to="/"
-      style={{
-        fontSize: `var(--font-sm)`,
-        textDecoration: `none`,
-      }}
-    >
       Languages
     </Link>
     <Link
@@ -110,6 +92,24 @@ const Header = ({ siteTitle }) => (
       }}
     >
       Services
+    </Link>
+    <Link
+      to="/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      Contact
+    </Link>
+    <Link
+      to="/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      Blog
     </Link>
     <img
       alt="Gatsby logo"
