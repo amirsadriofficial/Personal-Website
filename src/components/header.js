@@ -37,24 +37,6 @@ const Header = ({ siteTitle }) => (
         textDecoration: `none`,
       }}
     >
-      Contact
-    </Link>
-    <Link
-      to="/"
-      style={{
-        fontSize: `var(--font-sm)`,
-        textDecoration: `none`,
-      }}
-    >
-      Blog
-    </Link>
-    <Link
-      to="/"
-      style={{
-        fontSize: `var(--font-sm)`,
-        textDecoration: `none`,
-      }}
-    >
       About Me
     </Link>
     <Link
@@ -92,6 +74,24 @@ const Header = ({ siteTitle }) => (
       }}
     >
       Projects
+    </Link>
+    <Link
+      to="/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      Contact
+    </Link>
+    <Link
+      to="/"
+      style={{
+        fontSize: `var(--font-sm)`,
+        textDecoration: `none`,
+      }}
+    >
+      Blog
     </Link>
     <Link
       to="/"
